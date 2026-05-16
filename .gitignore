@@ -1,0 +1,51 @@
+# === ЗАВИСИМОСТИ ===
+node_modules/
+
+# === EXPO ===
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# === METRO ===
+.metro-health-check*
+
+# === ОТЛАДКА ===
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# === MACOS / WINDOWS ===
+.DS_Store
+Thumbs.db
+*.pem
+
+# === ENV ===
+.env*.local
+
+# === TYPESCRIPT ===
+*.tsbuildinfo
+
+# === NATIVE: игнорируем ТОЛЬКО тяжёлые артефакты сборки ===
+android/app/build/
+android/.gradle/
+android/.idea/
+android/captures/
+android/keystores/
+ios/build/
+ios/Pods/
+ios/*.xcworkspace/
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcodeproj/xcuserdata/
+
+# === КЛЮЧИ И СЕРТИФИКАТЫ ===
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# === ПРИМЕРЫ ===
+app-example/
